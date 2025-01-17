@@ -2,7 +2,7 @@ grf {
 	grfid: "qsi\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 4;
+	version: 5;
 	min_compatible_version: 0;
 }
 
@@ -16638,7 +16638,7 @@ item (FEAT_OBJECTS, item_yellowbrick_small_corner) {
 
 item (FEAT_OBJECTS, item_yellowbrick_high_innercorner) {  
     property {  
-        class:                  "QMSB";  
+        class:                  "QMSY";  
         classname:              string(STR_QMSB);  
         name:                   string(STR_YELLOWBRICK_HIGH_INNERCORNER);  
         climates_available:     ALL_CLIMATES;  
@@ -16659,7 +16659,7 @@ item (FEAT_OBJECTS, item_yellowbrick_high_innercorner) {
   
 item (FEAT_OBJECTS, item_yellowbrick_medium_innercorner) {  
     property {  
-        class:                  "QMSB";  
+        class:                  "QMSY";  
         classname:              string(STR_QMSB);  
         name:                   string(STR_YELLOWBRICK_MEDIUM_INNERCORNER);  
         climates_available:     ALL_CLIMATES;  
@@ -16680,7 +16680,7 @@ item (FEAT_OBJECTS, item_yellowbrick_medium_innercorner) {
   
 item (FEAT_OBJECTS, item_yellowbrick_small_innercorner) {  
     property {  
-        class:                  "QMSB";  
+        class:                  "QMSY";  
         classname:              string(STR_QMSB);  
         name:                   string(STR_YELLOWBRICK_SMALL_INNERCORNER);  
         climates_available:     ALL_CLIMATES;  

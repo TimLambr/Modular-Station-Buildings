@@ -1,3 +1,3 @@
-VERSION  :0.4-dev
+VERSION  :0.5
 TITLE    :Quasi's Modular Station Buildings
 DATE     :2025-01-17

@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 STR_GRF_NAME     :{TITLE} - v{VERSION}
-STR_GRF_DESCRIPTION     :{ORANGE}{TITLE}{WHITE} offers generic modular station buildings for your towns. {TRAIN}{}The station buildings can be found in the objects menu.{}{}{TINYFONT}Made with love by {YELLOW}Quasi{WHITE}{}v{VERSION} - {DATE}
+STR_GRF_DESCRIPTION     :{}{YELLOW}{TITLE}{WHITE} offers generic modular station buildings for your small to medium-sized towns. Or for your large towns — I won't judge.{}{}All buildings in this set are objects, which means you'll find them in your objects menu, not your stations menu. This groups all four orientations conveniently together.{}{}{TINYFONT}Made with {RED}love{WHITE} by {YELLOW}Quasi{WHITE}{}v{VERSION} - {DATE}
 
 # class names
 STR_QMSZ     :{YELLOW}Quasi's Modular Station Buildings (QMSB)
