@@ -1,0 +1,75 @@
+##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions
+STR_GRF_NAME     :{TITLE} - v{VERSION}
+STR_GRF_DESCRIPTION     :{ORANGE}{TITLE}{WHITE} offers generic modular station buildings for your towns. {TRAIN}{}The station buildings can be found in the objects menu.{}{}{TINYFONT}Made with love by {YELLOW}Quasi{WHITE}{}v{VERSION} - {DATE}
+
+# class names
+STR_QMSZ     :{YELLOW}Quasi's Modular Station Buildings (QMSB)
+STR_QMSB     :      QMSB: Red brick (modular station buildings)
+STR_QMSY     :      QMSB: Yellow brick (modular station buildings)
+
+# item names for red brick buildings
+STR_BRICK_HIGH_FULL     :Modular station building (red brick), two floors, full tile
+STR_BRICK_HIGH_34FAR     :Modular station building (red brick), two floors, 3/4 tile (far)
+STR_BRICK_HIGH_34NEAR     :Modular station building (red brick), two floors, 3/4 tile (near)
+STR_BRICK_HIGH_34FAR_MEDIUM     :Modular station building (red brick), two floors, 3/4 tile (far) with high roof side building
+STR_BRICK_HIGH_34NEAR_MEDIUM     :Modular station building (red brick), two floors, 3/4 tile (near) with high roof side building
+STR_BRICK_HIGH_34FAR_SMALL     :Modular station building (red brick), two floors, 3/4 tile (far) with low roof side building
+STR_BRICK_HIGH_34NEAR_SMALL     :Modular station building (red brick), two floors, 3/4 tile (near) with low roof side building
+STR_BRICK_MEDIUM_FULL     :Modular station building (red brick), high roof, full tile
+STR_BRICK_MEDIUM_34FAR     :Modular station building (red brick), high roof, 3/4 tile (far)
+STR_BRICK_MEDIUM_34NEAR     :Modular station building (red brick), high roof, 3/4 tile (near)
+STR_BRICK_MEDIUM_HALFFAR     :Modular station building (red brick), high roof, half tile (far)
+STR_BRICK_MEDIUM_HALFNEAR     :Modular station building (red brick), high roof, half tile (near)
+STR_BRICK_MEDIUM_14FAR     :Modular station building (red brick), high roof, 1/4 tile (far)
+STR_BRICK_MEDIUM_14NEAR     :Modular station building (red brick), high roof, 1/4 tile (near)
+STR_BRICK_MEDIUM_34FAR_SMALL     :Modular station building (red brick), high roof, 3/4 tile (far) with low roof side building
+STR_BRICK_MEDIUM_34NEAR_SMALL     :Modular station building (red brick), high roof, 3/4 tile (near) with low roof side building
+STR_BRICK_MEDIUM_HALFFAR_SMALL     :Modular station building (red brick), high roof, half tile (far) with low roof side building
+STR_BRICK_MEDIUM_HALFNEAR_SMALL     :Modular station building (red brick), high roof, half tile (near) with low roof side building
+STR_BRICK_MEDIUM_14FAR_SMALL     :Modular station building (red brick), high roof, 1/4 tile (far) with low roof side building
+STR_BRICK_MEDIUM_14NEAR_SMALL     :Modular station building (red brick), high roof, 1/4 tile (near) with low roof side building
+STR_BRICK_SMALL_FULL     :Modular station building (red brick), low roof, full tile
+STR_BRICK_SMALL_34FAR     :Modular station building (red brick), low roof, 3/4 tile (far)
+STR_BRICK_SMALL_34NEAR     :Modular station building (red brick), low roof, 3/4 tile (near)
+STR_BRICK_SMALL_HALFFAR     :Modular station building (red brick), low roof, half tile (far)
+STR_BRICK_SMALL_HALFNEAR     :Modular station building (red brick), low roof, half tile (near)
+STR_BRICK_SMALL_14FAR     :Modular station building (red brick), low roof, 1/4 tile (far)
+STR_BRICK_SMALL_14NEAR     :Modular station building (red brick), low roof, 1/4 tile (near)
+STR_BRICK_HIGH_CORNER     :Modular station building (red brick), two floors, corner piece
+STR_BRICK_MEDIUM_CORNER     :Modular station building (red brick), high roof, corner piece
+STR_BRICK_SMALL_CORNER     :Modular station building (red brick), low roof, corner piece
+
+# item names for yellow brick buildings
+STR_YELLOWBRICK_HIGH_FULL     :Modular station building (yellow brick), two floors, full tile
+STR_YELLOWBRICK_HIGH_34FAR     :Modular station building (yellow brick), two floors, 3/4 tile (far)
+STR_YELLOWBRICK_HIGH_34NEAR     :Modular station building (yellow brick), two floors, 3/4 tile (near)
+STR_YELLOWBRICK_HIGH_34FAR_MEDIUM     :Modular station building (yellow brick), two floors, 3/4 tile (far) with high roof side building
+STR_YELLOWBRICK_HIGH_34NEAR_MEDIUM     :Modular station building (yellow brick), two floors, 3/4 tile (near) with high roof side building
+STR_YELLOWBRICK_HIGH_34FAR_SMALL     :Modular station building (yellow brick), two floors, 3/4 tile (far) with low roof side building
+STR_YELLOWBRICK_HIGH_34NEAR_SMALL     :Modular station building (yellow brick), two floors, 3/4 tile (near) with low roof side building
+STR_YELLOWBRICK_MEDIUM_FULL     :Modular station building (yellow brick), high roof, full tile
+STR_YELLOWBRICK_MEDIUM_34FAR     :Modular station building (yellow brick), high roof, 3/4 tile (far)
+STR_YELLOWBRICK_MEDIUM_34NEAR     :Modular station building (yellow brick), high roof, 3/4 tile (near)
+STR_YELLOWBRICK_MEDIUM_HALFFAR     :Modular station building (yellow brick), high roof, half tile (far)
+STR_YELLOWBRICK_MEDIUM_HALFNEAR     :Modular station building (yellow brick), high roof, half tile (near)
+STR_YELLOWBRICK_MEDIUM_14FAR     :Modular station building (yellow brick), high roof, 1/4 tile (far)
+STR_YELLOWBRICK_MEDIUM_14NEAR     :Modular station building (yellow brick), high roof, 1/4 tile (near)
+STR_YELLOWBRICK_MEDIUM_34FAR_SMALL     :Modular station building (yellow brick), high roof, 3/4 tile (far) with low roof side building
+STR_YELLOWBRICK_MEDIUM_34NEAR_SMALL     :Modular station building (yellow brick), high roof, 3/4 tile (near) with low roof side building
+STR_YELLOWBRICK_MEDIUM_HALFFAR_SMALL     :Modular station building (yellow brick), high roof, half tile (far) with low roof side building
+STR_YELLOWBRICK_MEDIUM_HALFNEAR_SMALL     :Modular station building (yellow brick), high roof, half tile (near) with low roof side building
+STR_YELLOWBRICK_MEDIUM_14FAR_SMALL     :Modular station building (yellow brick), high roof, 1/4 tile (far) with low roof side building
+STR_YELLOWBRICK_MEDIUM_14NEAR_SMALL     :Modular station building (yellow brick), high roof, 1/4 tile (near) with low roof side building
+STR_YELLOWBRICK_SMALL_FULL     :Modular station building (yellow brick), low roof, full tile
+STR_YELLOWBRICK_SMALL_34FAR     :Modular station building (yellow brick), low roof, 3/4 tile (far)
+STR_YELLOWBRICK_SMALL_34NEAR     :Modular station building (yellow brick), low roof, 3/4 tile (near)
+STR_YELLOWBRICK_SMALL_HALFFAR     :Modular station building (yellow brick), low roof, half tile (far)
+STR_YELLOWBRICK_SMALL_HALFNEAR     :Modular station building (yellow brick), low roof, half tile (near)
+STR_YELLOWBRICK_SMALL_14FAR     :Modular station building (yellow brick), low roof, 1/4 tile (far)
+STR_YELLOWBRICK_SMALL_14NEAR     :Modular station building (yellow brick), low roof, 1/4 tile (near)
+STR_YELLOWBRICK_HIGH_CORNER     :Modular station building (yellow brick), two floors, corner piece
+STR_YELLOWBRICK_MEDIUM_CORNER     :Modular station building (yellow brick), high roof, corner piece
+STR_YELLOWBRICK_SMALL_CORNER     :Modular station building (yellow brick), low roof, corner piece
