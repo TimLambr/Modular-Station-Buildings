@@ -2,7 +2,7 @@ grf {
 	grfid: "qsi\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 2;
+	version: 4;
 	min_compatible_version: 0;
 }
 
@@ -7915,6 +7915,21 @@ spriteset (spriteset_brick_small_corner_NW, "gfx/buildings_brick_corners.png") {
 spriteset (spriteset_brick_small_corner_SW, "gfx/buildings_brick_corners.png") { [192, 128, 64, 64, -31, -33] }  
 spriteset (spriteset_brick_small_corner_SE, "gfx/buildings_brick_corners.png") { [256, 128, 64, 64, -31, -33] }  
 
+spriteset (spriteset_brick_high_innercorner_NE, "gfx/buildings_brick_corners.png") { [64, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_high_innercorner_NW, "gfx/buildings_brick_corners.png") { [128, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_high_innercorner_SW, "gfx/buildings_brick_corners.png") { [192, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_high_innercorner_SE, "gfx/buildings_brick_corners.png") { [256, 192, 64, 64, -31, -33] }  
+  
+spriteset (spriteset_brick_medium_innercorner_NE, "gfx/buildings_brick_corners.png") { [64, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_medium_innercorner_NW, "gfx/buildings_brick_corners.png") { [128, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_medium_innercorner_SW, "gfx/buildings_brick_corners.png") { [192, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_medium_innercorner_SE, "gfx/buildings_brick_corners.png") { [256, 256, 64, 64, -31, -33] }  
+  
+spriteset (spriteset_brick_small_innercorner_NE, "gfx/buildings_brick_corners.png") { [64, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_small_innercorner_NW, "gfx/buildings_brick_corners.png") { [128, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_small_innercorner_SW, "gfx/buildings_brick_corners.png") { [192, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_brick_small_innercorner_SE, "gfx/buildings_brick_corners.png") { [256, 320, 64, 64, -31, -33] }  
+
 /// Spritelayouts corners
 
 spritelayout spritelayout_brick_high_corner_NE {  
@@ -8049,6 +8064,138 @@ spritelayout spritelayout_brick_small_corner_SE {
     }  
 }  
 
+spritelayout spritelayout_brick_high_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_high_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_high_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_high_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_high_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_high_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_high_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_high_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_medium_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_medium_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_medium_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_medium_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_medium_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_medium_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_medium_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_medium_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_small_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_small_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_small_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_small_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_small_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_small_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_brick_small_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_brick_small_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+
 /// Object switches corners
 
 switch (FEAT_OBJECTS, SELF, switch_brick_high_corner, view) {  
@@ -8070,6 +8217,27 @@ switch (FEAT_OBJECTS, SELF, switch_brick_small_corner, view) {
     1:  spritelayout_brick_small_corner_NE;  
     2:  spritelayout_brick_small_corner_SW;  
     3:  spritelayout_brick_small_corner_SE;  
+}  
+
+switch (FEAT_OBJECTS, SELF, switch_brick_high_innercorner, view) {  
+    0:  spritelayout_brick_high_innercorner_NW;  
+    1:  spritelayout_brick_high_innercorner_NE;  
+    2:  spritelayout_brick_high_innercorner_SW;  
+    3:  spritelayout_brick_high_innercorner_SE;  
+}  
+  
+switch (FEAT_OBJECTS, SELF, switch_brick_medium_innercorner, view) {  
+    0:  spritelayout_brick_medium_innercorner_NW;  
+    1:  spritelayout_brick_medium_innercorner_NE;  
+    2:  spritelayout_brick_medium_innercorner_SW;  
+    3:  spritelayout_brick_medium_innercorner_SE;  
+}  
+  
+switch (FEAT_OBJECTS, SELF, switch_brick_small_innercorner, view) {  
+    0:  spritelayout_brick_small_innercorner_NW;  
+    1:  spritelayout_brick_small_innercorner_NE;  
+    2:  spritelayout_brick_small_innercorner_SW;  
+    3:  spritelayout_brick_small_innercorner_SE;  
 }  
 
 /// Objects corners
@@ -8136,6 +8304,70 @@ item (FEAT_OBJECTS, item_brick_small_corner) {
         additional_text:        string(STR_BRICK_SMALL_CORNER);  
     }  
 }  
+
+item (FEAT_OBJECTS, item_brick_high_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_BRICK_HIGH_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1801,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 4;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_brick_high_innercorner;  
+        additional_text:        string(STR_BRICK_HIGH_INNERCORNER);  
+    }  
+}  
+  
+item (FEAT_OBJECTS, item_brick_medium_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_BRICK_MEDIUM_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1825,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 3;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_brick_medium_innercorner;  
+        additional_text:        string(STR_BRICK_MEDIUM_INNERCORNER);  
+    }  
+}  
+  
+item (FEAT_OBJECTS, item_brick_small_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_BRICK_SMALL_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1850,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 2;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_brick_small_innercorner;  
+        additional_text:        string(STR_BRICK_SMALL_INNERCORNER);  
+    }  
+}  
+
 
 ///// END OF RED BRICK BUILDINGS
 
@@ -16013,6 +16245,21 @@ spriteset (spriteset_yellowbrick_small_corner_NW, "gfx/buildings_yellowbrick_cor
 spriteset (spriteset_yellowbrick_small_corner_SW, "gfx/buildings_yellowbrick_corners.png") { [192, 128, 64, 64, -31, -33] }  
 spriteset (spriteset_yellowbrick_small_corner_SE, "gfx/buildings_yellowbrick_corners.png") { [256, 128, 64, 64, -31, -33] }  
 
+spriteset (spriteset_yellowbrick_high_innercorner_NE, "gfx/buildings_yellowbrick_corners.png") { [64, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_high_innercorner_NW, "gfx/buildings_yellowbrick_corners.png") { [128, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_high_innercorner_SW, "gfx/buildings_yellowbrick_corners.png") { [192, 192, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_high_innercorner_SE, "gfx/buildings_yellowbrick_corners.png") { [256, 192, 64, 64, -31, -33] }  
+  
+spriteset (spriteset_yellowbrick_medium_innercorner_NE, "gfx/buildings_yellowbrick_corners.png") { [64, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_medium_innercorner_NW, "gfx/buildings_yellowbrick_corners.png") { [128, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_medium_innercorner_SW, "gfx/buildings_yellowbrick_corners.png") { [192, 256, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_medium_innercorner_SE, "gfx/buildings_yellowbrick_corners.png") { [256, 256, 64, 64, -31, -33] }  
+  
+spriteset (spriteset_yellowbrick_small_innercorner_NE, "gfx/buildings_yellowbrick_corners.png") { [64, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_small_innercorner_NW, "gfx/buildings_yellowbrick_corners.png") { [128, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_small_innercorner_SW, "gfx/buildings_yellowbrick_corners.png") { [192, 320, 64, 64, -31, -33] }  
+spriteset (spriteset_yellowbrick_small_innercorner_SE, "gfx/buildings_yellowbrick_corners.png") { [256, 320, 64, 64, -31, -33] }  
+
 /// Spritelayouts corners
 
 spritelayout spritelayout_yellowbrick_high_corner_NE {  
@@ -16146,6 +16393,138 @@ spritelayout spritelayout_yellowbrick_small_corner_SE {
         palette: PALETTE_USE_DEFAULT;  
     }  
 }  
+spritelayout spritelayout_yellowbrick_high_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_high_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_high_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_high_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_high_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_high_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_high_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_high_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_medium_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_medium_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_medium_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_medium_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_medium_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_medium_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_medium_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_medium_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_small_innercorner_NE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_small_innercorner_NE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_small_innercorner_NW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_small_innercorner_NW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_small_innercorner_SW {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_small_innercorner_SW;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+  
+spritelayout spritelayout_yellowbrick_small_innercorner_SE {  
+    ground {  
+        sprite: spriteset_ground_concrete;  
+    }  
+    building {  
+        sprite: spriteset_yellowbrick_small_innercorner_SE;  
+        recolour_mode: RECOLOUR_REMAP;  
+        palette: PALETTE_USE_DEFAULT;  
+    }  
+}  
+
 
 /// Object switches corners
 
@@ -16169,6 +16548,28 @@ switch (FEAT_OBJECTS, SELF, switch_yellowbrick_small_corner, view) {
     2:  spritelayout_yellowbrick_small_corner_SW;  
     3:  spritelayout_yellowbrick_small_corner_SE;  
 }  
+
+switch (FEAT_OBJECTS, SELF, switch_yellowbrick_high_innercorner, view) {  
+    0:  spritelayout_yellowbrick_high_innercorner_NW;  
+    1:  spritelayout_yellowbrick_high_innercorner_NE;  
+    2:  spritelayout_yellowbrick_high_innercorner_SW;  
+    3:  spritelayout_yellowbrick_high_innercorner_SE;  
+}  
+  
+switch (FEAT_OBJECTS, SELF, switch_yellowbrick_medium_innercorner, view) {  
+    0:  spritelayout_yellowbrick_medium_innercorner_NW;  
+    1:  spritelayout_yellowbrick_medium_innercorner_NE;  
+    2:  spritelayout_yellowbrick_medium_innercorner_SW;  
+    3:  spritelayout_yellowbrick_medium_innercorner_SE;  
+}  
+  
+switch (FEAT_OBJECTS, SELF, switch_yellowbrick_small_innercorner, view) {  
+    0:  spritelayout_yellowbrick_small_innercorner_NW;  
+    1:  spritelayout_yellowbrick_small_innercorner_NE;  
+    2:  spritelayout_yellowbrick_small_innercorner_SW;  
+    3:  spritelayout_yellowbrick_small_innercorner_SE;  
+}  
+
 
 /// Objects corners
 
@@ -16232,6 +16633,69 @@ item (FEAT_OBJECTS, item_yellowbrick_small_corner) {
     graphics {  
         default:                switch_yellowbrick_small_corner;  
         additional_text:        string(STR_YELLOWBRICK_SMALL_CORNER);  
+    }  
+}  
+
+item (FEAT_OBJECTS, item_yellowbrick_high_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_YELLOWBRICK_HIGH_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1801,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 4;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_yellowbrick_high_innercorner;  
+        additional_text:        string(STR_YELLOWBRICK_HIGH_INNERCORNER);  
+    }  
+}  
+  
+item (FEAT_OBJECTS, item_yellowbrick_medium_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_YELLOWBRICK_MEDIUM_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1825,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 3;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_yellowbrick_medium_innercorner;  
+        additional_text:        string(STR_YELLOWBRICK_MEDIUM_INNERCORNER);  
+    }  
+}  
+  
+item (FEAT_OBJECTS, item_yellowbrick_small_innercorner) {  
+    property {  
+        class:                  "QMSB";  
+        classname:              string(STR_QMSB);  
+        name:                   string(STR_YELLOWBRICK_SMALL_INNERCORNER);  
+        climates_available:     ALL_CLIMATES;  
+        size:                   [1,1];  
+        build_cost_multiplier:  1;  
+        remove_cost_multiplier: 1;  
+        introduction_date:      date(1850,1,1);  
+        end_of_life_date:       0xFFFFFFFF;  
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);  
+        height:                 2;  
+        num_views:              4;  
+    }  
+    graphics {  
+        default:                switch_yellowbrick_small_innercorner;  
+        additional_text:        string(STR_YELLOWBRICK_SMALL_INNERCORNER);  
     }  
 }  
 

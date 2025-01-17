@@ -41,6 +41,9 @@ STR_BRICK_SMALL_14NEAR     :Modular station building (red brick), low roof, 1/4 
 STR_BRICK_HIGH_CORNER     :Modular station building (red brick), two floors, corner piece
 STR_BRICK_MEDIUM_CORNER     :Modular station building (red brick), high roof, corner piece
 STR_BRICK_SMALL_CORNER     :Modular station building (red brick), low roof, corner piece
+STR_BRICK_HIGH_INNERCORNER     :Modular station building (red brick), two floors, inner corner piece
+STR_BRICK_MEDIUM_INNERCORNER     :Modular station building (red brick), high roof, inner corner piece
+STR_BRICK_SMALL_INNERCORNER     :Modular station building (red brick), low roof, inner corner piece
 
 # item names for yellow brick buildings
 STR_YELLOWBRICK_HIGH_FULL     :Modular station building (yellow brick), two floors, full tile
@@ -73,3 +76,6 @@ STR_YELLOWBRICK_SMALL_14NEAR     :Modular station building (yellow brick), low r
 STR_YELLOWBRICK_HIGH_CORNER     :Modular station building (yellow brick), two floors, corner piece
 STR_YELLOWBRICK_MEDIUM_CORNER     :Modular station building (yellow brick), high roof, corner piece
 STR_YELLOWBRICK_SMALL_CORNER     :Modular station building (yellow brick), low roof, corner piece
+STR_YELLOWBRICK_HIGH_INNERCORNER     :Modular station building (yellow brick), two floors, inner corner piece
+STR_YELLOWBRICK_MEDIUM_INNERCORNER     :Modular station building (yellow brick), high roof, inner corner piece
+STR_YELLOWBRICK_SMALL_INNERCORNER     :Modular station building (yellow brick), low roof, inner corner piece
